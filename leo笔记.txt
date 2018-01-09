@@ -1,0 +1,16 @@
+git-pull对应更新####git-push对应提交
+
+mysqld install MySQL --defaults-file="E:\leosoftware\mysql-5.7.20-winx64\my.ini"
+
+
+本地服务上的mysql启动后停止   https://jingyan.baidu.com/article/9c69d48ffefb2613c8024e6d.html
+mysqld --initialize-insecure --user=mysql
+
+
+
+MySQL修改root密码的多种方法  https://jingyan.baidu.com/article/0320e2c198ad5f1b87507bc8.html
+方法1： 用SET PASSWORD命令
+
+　　mysql -u root
+
+　　mysql> SET PASSWORD FOR 'root'@'localhost' = PASSWORD('newpass');
