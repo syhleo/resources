@@ -14,3 +14,46 @@ MySQL修改root密码的多种方法  https://jingyan.baidu.com/article/0320e2c198ad5f1b8
 　　mysql -u root
 
 　　mysql> SET PASSWORD FOR 'root'@'localhost' = PASSWORD('newpass');
+
+
+
+==========================================================================================================
+
+git add . 的时候遇到warning: LF will be replaced by CRLF in ...
+http://blog.csdn.net/wxl1555/article/details/53033739
+
+git pull出现fatal: refusing to merge unrelated histories
+方法：git pull origin master --allow-unrelated-histories
+
+
+在github分支上上传空文件夹
+https://www.cnblogs.com/houpeiyong/p/5888374.html
+可以在GIT库的根目录下输入命令行
+find . \( -type d -empty \) -and \( -not -regex ./\.git.* \) -exec touch {}/.gitkeep \;
+该语句可以在所有的空文件夹下增加.gitkeep文件
+
+
+删除当前目录下及子目录下的特定文件
+https://linux.cn/article-3253-1.html
+find ./ -type f -name '.gitkeep' -delete
+
+找到当前目录下及子目录下的特定文件
+find . -name "*.txt"
+
+
+查看当前用户（global）配置
+git config --global  --list
+
+
+查看当前仓库配置信息
+git config --local  --list
+
+
+查看系统config
+git config --system --list
+
+
+
+
+
+
