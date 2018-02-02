@@ -1,3 +1,5 @@
+默认情况下，spring容器中bean类是单例的
+
 git-pull对应更新####git-push对应提交
 
 mysqld install MySQL --defaults-file="E:\leosoftware\mysql-5.7.20-winx64\my.ini"
