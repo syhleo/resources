@@ -9,6 +9,13 @@ mysqld install MySQL --defaults-file="E:\leosoftware\mysql-5.7.20-winx64\my.ini"
 mysqld --initialize-insecure --user=mysql
 
 
+安装mysql是报错MSVCR120.dll   https://jingyan.baidu.com/article/7e440953102a322fc0e2ef3c.html
+
+安装免安装的mysql是注意这里保存时编码为ansi，否则会报如下错误：error: Found option without preceding group in config file: D:\Program Files\mysql-5.6.25-winx64\my.ini at line: 
+1 Fatal error in defaults handling. Program aborted
+http://blog.csdn.net/wml0109/article/details/52586457
+
+
 
 MySQL修改root密码的多种方法  https://jingyan.baidu.com/article/0320e2c198ad5f1b87507bc8.html
 方法1： 用SET PASSWORD命令
